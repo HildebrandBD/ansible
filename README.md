@@ -56,7 +56,17 @@ Also, you need the Terraform Backend Configuration Credential you made as the cr
 
 ### Job Templates
 Now that you have the basics set up (project, credential, inventory), you can define job templates in AAP. As you can see in the repository where this text lives, there are 4 playbooks:
+- deploy_servers.yml This playbook will apply a plan in Hashicorp Terraform Cloud.
+- update_server.yml. This playbook will update RHEL servers
+- deploy_webserver.yml. This playbook will deploy a webserver (apache)
+- deploy_website.yml. This playbook will dpeloy a website
+Have a look at the playbooks in this repo to get a sense of what they do.
+
+Create a Job Template for each of these playbooks.
+- The job template to deploy a webserver needs a var called "mode" with a value of "deploy"
 - 
+
+
 
 
 
