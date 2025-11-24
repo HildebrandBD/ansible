@@ -18,4 +18,3 @@
           job_args:
             extra_vars:
               vm_name: "{{ event.payload.limit }}"
-              shadowman_provision_hypervisor: "AWS"
