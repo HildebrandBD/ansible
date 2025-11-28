@@ -16,7 +16,7 @@ So what are the basics we have set up for you:
 6. An _Execution Environment_ called `ee-tech-x-change-nl` in AAP that provides all the collections and dependencies you need in this workshop. For Terraform there are currently 2 certified ansible collections:
   - [cloud.terraform](https://caap.fvz.ansible-labs.de/content/collections/published/cloud/terraform/documentation/) - Maintained by Red Hat. It uses the terraform cli to talk to terraform.
   - [hashicorp.terraform](https://caap.fvz.ansible-labs.de/content/collections/published/hashicorp/terraform/documentation/) - Maintained by HashiCorp
-> All future development is on the hashicorp.terraform collection. It is the collection for integration with HashiCorp Terraform Enterprise and Cloud and it is based on the provided API. This workshop uses this collection where possible and falls back to the older cloud.terraform collection where needed. 
+  > All future development is on the hashicorp.terraform collection. It is the collection for integration with HashiCorp Terraform Enterprise and Cloud and it is based on the provided API. This workshop uses this collection where possible and falls back to the older cloud.terraform collection where needed. 
 
 
 This workshop has been designed such that **you** will need to do most of the work, signifying the word "work" in workshop ;-) This means we only have the absolute basics set up and you need to build all the components to make everything work.
