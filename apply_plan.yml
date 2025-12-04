@@ -2,4 +2,12 @@
   hosts: all
   tasks:
   - name: Apply a terraform plan
-
+  hashicorp.terraform.run:
+    workspace: "Terraform-IHD"
+    organization: "TechXchangeNL"
+    auto_apply: true
+    state: "present"
+    poll: true
+    poll_interval: 5
+    poll_timeout: 1200
+    tf_timeout: 6000
